@@ -1,0 +1,23 @@
+.content {
+    display:flex;
+    justify-content: center;
+    margin: 5px;
+
+    &__form {
+
+        margin: rem(10);
+
+        &--input {
+            padding: rem(5);
+            width: rem(250);
+            height: rem(30);
+            border: rem(1) solid $border-input;
+            border-radius: rem(5);
+            background-color: $color-input;
+
+
+
+        }
+
+    }
+}
