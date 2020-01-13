@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Card = props => {
     return <Link to={`/detail/${props.character.id}`}>
-        <img src={props.character.image} alt={props.character.name} />
-        <h3>{props.character.name}</h3>
-        <p>{props.character.species}</p>
+        <img className='wrapper__character--image' src={props.character.image} alt={props.character.name} />
+        <h3 className='wrapper__character--name'>{props.character.name}</h3>
+        <p className='wrapper__character--specie'>{props.character.species}</p>
     </Link>
 
 
