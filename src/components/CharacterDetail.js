@@ -7,7 +7,7 @@ const Details = props => {
     if (props.character === undefined) {
         return <div>Cargando</div>
     } else {
-        return <React.Fragment>
+        return <div className='wrapper'>
             <Link to='/' className="link"> BACK</Link>
 
             <div className="detail">
@@ -21,7 +21,7 @@ const Details = props => {
                 </div>
             </div>
 
-        </React.Fragment>
+        </div>
 
     }
 

@@ -1,11 +1,18 @@
+.wrapper {
+    padding:rem(100);
+}
+
+
+
 .detail {
     background-color:$blue;
-    padding: rem(10);
+    padding: rem(20);
     border-radius:rem(10);
-    margin-top: rem(20);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-top: rem(30);
+    -webkit-box-shadow: -4px 4px 71px -10px rgba(151,200,74,0.50);
+    -moz-box-shadow: -4px 4px 71px -10px rgba(151,200,74,0.50);
+    box-shadow: -4px 4px 71px -10px rgba(151,200,74,0.50);
+  
 
     @include tablet {
         display: flex;
@@ -16,6 +23,10 @@
     &__image {
         width: rem(200);
         border-radius: rem(10);
+        -webkit-box-shadow: 10px 10px 40px -10px rgba(250, 250, 250, 0.5);
+        -moz-box-shadow: 10px 10px 40px -10px rgba(250, 250, 250, 0.5);
+        box-shadow: 10px 10px 40px -10px rgba(250, 250, 250, 0.5);
+       
        
     }
 
@@ -32,11 +43,15 @@
             font-family: $title;
             font-size: rem(20);
             font-weight: 600;
+            color:$light-green;
         }
         &--status, &--specie, &--episode, &--origin {
             font-family: $title;
             font-size: rem(14);
-            font-weight: 400;
+            font-weight: 300;
+            color: $light-green;
+            margin:0;
+            line-height: rem(20);
         }
 
 
@@ -54,6 +69,10 @@
     padding: rem(5);
     border-radius: rem(10);
     text-align: right;
- 
+    
+}
 
+.link:hover {
+    cursor:pointer;
+    
 }

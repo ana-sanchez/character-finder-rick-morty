@@ -21,14 +21,15 @@
 .wrapper__character {
     padding: rem(20);
     background-color: $blue;
-    margin: rem(20);
+    margin: rem(30) rem(20);
     border-radius: rem(5);
     max-width: rem(240);
-    text-align: left;
+    text-align: center;
+    -webkit-box-shadow: -4px 4px 71px -10px rgba(151,200,74,0.50);
+    -moz-box-shadow: -4px 4px 71px -10px rgba(151,200,74,0.50);
+    box-shadow: -4px 4px 71px -10px rgba(151,200,74,0.50);
 
-    &:hover {
-        transform: scale(1);
-    }
+
    
 
     &--image {
@@ -36,6 +37,12 @@
         height: rem(200);
         border-radius: 50%;
         margin-bottom: rem(25);
+        margin-top: rem(-50);
+        -webkit-box-shadow: 10px 10px 40px -10px rgba(0,0,0,0.5);
+        -moz-box-shadow: 10px 10px 40px -10px rgba(0,0,0,0.5);
+        box-shadow: 10px 10px 40px -10px rgba(0,0,0,0.5);
+
+
     }
 
     &--name {

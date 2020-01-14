@@ -8,16 +8,22 @@
         margin: rem(10);
 
         &--input {
-            padding: rem(5);
+            padding: rem(10);
             width: rem(250);
             height: rem(30);
             border: rem(1) solid $border-input;
-            border-radius: rem(5);
+            border-radius: rem(15);
             background-color: $color-input;
+            font-family: $title;
+            font-weight: 300;
+            color: rgb(61, 61, 61);
 
 
 
         }
 
     }
+}
+.content__form--input::placeholder {
+    color: grey;
 }

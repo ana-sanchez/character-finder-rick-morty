@@ -12,10 +12,11 @@ const Filter = props => {
             <input
                 className='content__form--input'
                 name='filter'
-                type='text'
+                type='search'
                 onKeyUp={onClickHandler}
             />
         </form>
+        <i class="fas fa-search"></i>
 
     </div>
 
