@@ -5,27 +5,26 @@
 This project is developed with ReactJs, Babel, Sass. 😉
 The structure of the components is: 
 
-     __public
     |__src
-    |_____components
-          |__ App.j
-          |__ CharacterCard.js
-          |__ CharacterDetail.js
-          |__ Filters.js
-          |__ Header.js
-    ______|__ Home.js
-    |
-    |_____images
-    |_____services
-          |__ Api.j
-    |
-    |_____styles
-          |__ components
-          |__ core
-          |__ vendors
-          |__ App.scss
-    |
-    |_____index.js    
+        |_____components
+            |__ App.js
+            |__ CharacterCard.js
+            |__ CharacterDetail.js
+            |__ Filters.js
+            |__ Header.js
+        ______|__ Home.js
+        |
+        |_____images
+        |_____services
+            |__ Api.js
+        |
+        |_____styles
+            |__ components
+            |__ core
+            |__ vendors
+            |__ App.scss
+        |
+        |_____index.js    
 
 
 In the project directory, you can run:

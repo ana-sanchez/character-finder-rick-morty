@@ -8,8 +8,7 @@ const Home = props => {
 
     const { onClickHandler, value, characters } = props
 
-    return <React.Fragment>
-        
+    return <React.Fragment>      
         <Header />
         <Filter onClickHandler={onClickHandler} />
         <List characters={characters} value={value} />

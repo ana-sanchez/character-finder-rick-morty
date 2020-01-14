@@ -13,7 +13,7 @@ const Details = props => {
     const { character } = props
 
     if (character === undefined) {
-        return <div>Cargando</div>
+        return <div>Cargando...</div>
     } else {
         return <div className='wrapper'>
             <Link to='/' className="link"><ArrowLeftIcon style={{ fontSize: 15 }}></ArrowLeftIcon> BACK </Link>
@@ -32,12 +32,10 @@ const Details = props => {
                 </div>
             </div>
         </div>
-
-
-
     }
-
 }
+
+
 Details.propTypes = {
     character: PropTypes.object,
     name: PropTypes.string,

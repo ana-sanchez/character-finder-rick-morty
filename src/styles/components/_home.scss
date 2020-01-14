@@ -12,7 +12,7 @@
 
 }
 .stars {
-    background: #17182f url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+    background: $blue-dark url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
    	animation: gradient 15s ease infinite;
 }
 

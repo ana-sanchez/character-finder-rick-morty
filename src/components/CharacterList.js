@@ -19,9 +19,8 @@ const List = props => {
                 </li>
             })}
     </ul>
-
-
 }
+
 List.propTypes = {
     characters: PropTypes.arrayOf(PropTypes.object),
     character: PropTypes.object

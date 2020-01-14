@@ -52,7 +52,7 @@
    }
 
     &--name {
-        font-family: $title;
+        font-family: $font;
         font-size: rem(20);
         font-weight: 600;
         color: $light-green;
@@ -60,7 +60,7 @@
     }
     
     &--specie {
-        font-family: $title;
+        font-family: $font;
         font-size: rem(20);
         font-weight: 300;
         color: $light-green;

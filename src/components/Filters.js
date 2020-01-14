@@ -1,7 +1,4 @@
 import React from 'react'
-import Icon from '@material-ui/core/Icon';
-
-
 
 const Filter = props => {
 
@@ -9,7 +6,7 @@ const Filter = props => {
         props.onClickHandler(e.target.value)
     }
 
-    return <div className='content' id='search-wrapper'>
+    return <div className='content'>
         <form className='content__form'>
             <input
                 className='content__form--input'
@@ -18,9 +15,7 @@ const Filter = props => {
                 onChange={onClickHandler}
             />
         </form>
-
     </div>
-
 }
 
 export default Filter
