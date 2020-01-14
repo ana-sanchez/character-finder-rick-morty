@@ -2,13 +2,38 @@
 
 ## Ricky Morty Series Character Finder
 
-This project is developed with ReactJs, Babel, Sass.
+This project is developed with ReactJs, Babel, Sass. 😉
+The structure of the components is: 
+
+     __public
+    |__src
+    |_____components
+          |__ App.j
+          |__ CharacterCard.js
+          |__ CharacterDetail.js
+          |__ Filters.js
+          |__ Header.js
+    ______|__ Home.js
+    |
+    |_____images
+    |_____services
+          |__ Api.j
+    |
+    |_____styles
+          |__ components
+          |__ core
+          |__ vendors
+          |__ App.scss
+    |
+    |_____index.js    
+
+
 In the project directory, you can run:
 
 
 **Starting**
 
-With the following instructions you can clone the repository on your local machine and develop it.
+With the following instructions you can clone the repository on your local computer and develop it.
 
 ### `npm install --save react-router-dom node-sass prop-types `
 
