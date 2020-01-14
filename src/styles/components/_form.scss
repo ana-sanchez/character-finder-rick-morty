@@ -6,14 +6,18 @@
     &__form {
 
         margin: rem(10);
+        position:relative;
+        vertical-align: middle;
+    white-space: nowrap;
+    z-index: 0;
 
         &--input {
             padding: rem(10);
             width: rem(250);
             height: rem(30);
-            border: rem(1) solid $border-input;
+            border: rem(3) solid $border-input;
             border-radius: rem(15);
-            background-color: $color-input;
+            background-color: transparent;
             font-family: $font;
             font-weight: 300;
             color: rgb(119, 119, 119);
@@ -21,10 +25,15 @@
             &:focus {
                 border: rem(3) solid $blue;
             }
-            
-
-
         }
+         
+
 
     }
 }
+.container-1{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }

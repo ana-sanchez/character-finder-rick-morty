@@ -1,5 +1,8 @@
 import React from 'react'
 
+
+
+
 const Filter = props => {
 
     const onClickHandler = e => {
@@ -13,6 +16,8 @@ const Filter = props => {
                 name='filter'
                 type='search'
                 onChange={onClickHandler}
+                placeholder='Search...'
+                id='search'
             />
         </form>
     </div>
