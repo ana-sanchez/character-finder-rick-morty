@@ -13,8 +13,14 @@
     }
      @include desktop {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr ;
         grid-gap: 5px;        
+    }
+    @include desktop-large {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-gap: 5px; 
+
     }
 }
 
@@ -29,9 +35,6 @@
     -moz-box-shadow: -4px 4px 71px -10px rgba(151,200,74,0.50);
     box-shadow: -4px 4px 71px -10px rgba(151,200,74,0.50);
 
-
-   
-
     &--image {
         width: rem(200);
         height: rem(200);
@@ -42,8 +45,11 @@
         -moz-box-shadow: 10px 10px 40px -10px rgba(0,0,0,0.5);
         box-shadow: 10px 10px 40px -10px rgba(0,0,0,0.5);
 
-
-    }
+        &:hover{
+            transform:scale(1.05);
+            transition: transform ease-out 0.5s;
+        }
+   }
 
     &--name {
         font-family: $title;
@@ -52,6 +58,7 @@
         color: $light-green;
         margin: rem(0);
     }
+    
     &--specie {
         font-family: $title;
         font-size: rem(20);

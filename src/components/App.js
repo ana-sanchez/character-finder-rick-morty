@@ -60,7 +60,7 @@ class App extends React.Component {
   render() {
     console.log(this.state)
     return (
-      <div className="main">
+      <div className="main stars clouds">
 
         <Switch>
           <Route exact path='/' render={this.renderHome} />

@@ -16,14 +16,15 @@
             background-color: $color-input;
             font-family: $title;
             font-weight: 300;
-            color: rgb(61, 61, 61);
+            color: rgb(119, 119, 119);
 
+            &:focus {
+                border: rem(3) solid $blue;
+            }
+            
 
 
         }
 
     }
-}
-.content__form--input::placeholder {
-    color: grey;
 }

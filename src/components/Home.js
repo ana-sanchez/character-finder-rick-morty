@@ -6,12 +6,13 @@ import '../styles/App.scss'
 
 const Home = props => {
 
+    const { onClickHandler, value, characters } = props
+
     return <React.Fragment>
+        
         <Header />
-        <Filter onClickHandler={props.onClickHandler} />
-        <List characters={props.characters} value={props.value} />
-
-
+        <Filter onClickHandler={onClickHandler} />
+        <List characters={characters} value={value} />
     </React.Fragment>
 }
 

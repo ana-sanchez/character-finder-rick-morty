@@ -26,8 +26,7 @@
         -webkit-box-shadow: 10px 10px 40px -10px rgba(250, 250, 250, 0.5);
         -moz-box-shadow: 10px 10px 40px -10px rgba(250, 250, 250, 0.5);
         box-shadow: 10px 10px 40px -10px rgba(250, 250, 250, 0.5);
-       
-       
+             
     }
 
     &__assets {
@@ -42,22 +41,39 @@
         &--title {
             font-family: $title;
             font-size: rem(20);
-            font-weight: 600;
+            font-weight: 700;
             color:$light-green;
+
+            @include tablet {
+                font-size: rem(25);
+            }
+        }
+
+        &--subtitle {
+            font-weight: 400;
+
+            @include tablet {
+                font-size: rem(20);
+                line-height: rem(25);
+
+            }
+
         }
         &--status, &--specie, &--episode, &--origin {
             font-family: $title;
-            font-size: rem(14);
+            font-size: rem(15);
             font-weight: 300;
             color: $light-green;
             margin:0;
             line-height: rem(20);
+
+            @include tablet {
+                font-size: rem(20);
+                line-height: rem(25);
+
+            }
         }
-
-
-    }
- 
-   
+    }   
 }
 
 .link {
@@ -66,13 +82,19 @@
     color: white;
     font-size:rem(15);
     background-color: $blue;
-    padding: rem(5);
+    padding: rem(10);
     border-radius: rem(10);
     text-align: right;
-    
+    line-height: rem(20);
 }
 
 .link:hover {
     cursor:pointer;
-    
+    color:$light-green;
+    transition: color ease-in 0.5s;
 }
+
+.MuiSvgIcon-root{
+    transform: scale(2);
+}
+

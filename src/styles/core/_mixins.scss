@@ -5,3 +5,7 @@
 @mixin desktop {
   @media (min-width: 1024px) { @content; }
 } 
+
+@mixin desktop-large {
+  @media (min-width: 1200px) { @content; }
+} 

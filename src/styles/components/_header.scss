@@ -1,6 +1,13 @@
-.header {
-    width: rem(200);
+.content-header {
     text-align: center;
-    // margin: rem(10);
-    top:0;
+
+    &--image {
+        width: rem(200);
+
+        @include tablet {
+            width: rem(300);
+        }
+        
+    }
+
 }
