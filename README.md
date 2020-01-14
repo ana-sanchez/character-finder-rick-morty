@@ -1,6 +1,6 @@
 
 
-## Ricky Morty Series Character Finder
+## Rick Morty Series Character Finder
 
 This project is developed with ReactJs, Babel, Sass. 😉
 The structure of the components is: 
